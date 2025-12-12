@@ -129,7 +129,8 @@ Based on the script :
 🧱 Project Architecture
 -----------------------
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   Fake News Detector/  │  ├── Fake.csv                 # Fake news dataset  ├── True.csv                 # Real news dataset  ├── Fake News Detector.py    # Main training + demo script  │  └── README.md                # (YOU ARE HERE)   `
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML
+<pre>`   Fake News Detector/  │  ├── Fake.csv                 # Fake news dataset  ├── True.csv                 # Real news dataset  ├── Fake News Detector.py    # Main training + demo script  │  └── README.md                # (YOU ARE HERE)   `<\pre>
 
 ⚙️ Installation
 ---------------
