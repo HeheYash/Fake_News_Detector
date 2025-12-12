@@ -147,3 +147,61 @@ Reduce dimensionality (3000 → 100)
 ### PHASE 4 — Neural Network Training
 
 A lightweight NN trains using an 80/20 split.
+
+
+## 🧪 Running the Detector
+### 1. Start the script
+```
+python "Fake News Detector.py"
+```
+
+### 2. Enter a headline
+
+Example:
+```
+Enter Headline: Leaked report reveals secret alien contact
+```
+
+### 3. Output
+```
+[Internal Score: 0.73 | Final: 1.00]
+🚨 RESULT: FAKE NEWS DETECTED
+```
+
+## 🧬 Model Architecture
+```
+Input Layer (100 PCA components)
+       ↓
+Dense Layer (64 neurons, ReLU)
+Dropout (0.3)
+       ↓
+Dense Layer (32 neurons, ReLU)
+       ↓
+Dense Output Layer (1 neuron, Sigmoid)
+```
+
+**Loss**: Binary Crossentropy
+**Optimizer**: Adam
+**Output**: Probability (0 = REAL, 1 = FAKE)
+
+## 📁 Project Files
+
+| File                    | Description                                                        |
+| ----------------------- | ------------------------------------------------------------------ |
+| `Fake News Detector.py` | Main script: preprocessing, PCA, training, interactive predictions |
+| `Fake.csv`              | Fake news dataset labeled as `1`                                   |
+| `True.csv`              | Real news dataset labeled as `0`                                   |
+
+## 🚀 Future Improvements
+
+Replace TF-IDF + PCA with BERT or DistilBERT embeddings
+
+Add web API using Flask/FastAPI
+
+Train on larger datasets for higher accuracy
+
+Provide evaluation metrics (accuracy, F1-score, ROC curve)
+
+Build a frontend dashboard
+
+Implement LSTM, GRU, or Transformer-based model
