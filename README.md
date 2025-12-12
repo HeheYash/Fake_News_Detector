@@ -186,9 +186,9 @@ Dense Output Layer (1 neuron, Sigmoid)
 
 | File                    | Description                                                        |
 | ----------------------- | ------------------------------------------------------------------ |
-| `Fake News Detector.py` | Main script: preprocessing, PCA, training, interactive predictions |
-| `Fake.csv`              | Fake news dataset labeled as `1`                                   |
-| `True.csv`              | Real news dataset labeled as `0`                                   |
+| `Fake News Detector.py` | Main script: preprocessing, PCA, training, interactive predictions  |
+| `Fake.csv`              | Access from here : ![Fake News!].(https://drive.google.com/file/d/1xMljHCyyP1I1RlHBVD28DhYOYFa0udE5/view?usp=sharing)                                   |
+| `True.csv`              | Access from here : ![True News!].(https://drive.google.com/file/d/1XwG5imVt7Qy5RrPGyWphRjJK5Ym-6T3v/view?usp=drive_link)                                   |
 
 ## 🚀 Future Improvements
 
