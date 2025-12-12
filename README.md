@@ -14,8 +14,6 @@ A complete Fake News Classification system that combines **NLP preprocessing**, 
 - [Model Architecture](#model-architecture)
 - [Project Files](#project-files)
 - [Future Improvements](#future-improvements)
-- [License](#license)
-
 ---
 
 ## 🔍 Overview
